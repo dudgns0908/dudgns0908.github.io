@@ -1,7 +1,7 @@
 title: Research Blog
 description: Research Blog for Deep Learning
 
-url: http://dudgns0908.github.io/
+url: https://dudgns0908.github.io/
 baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
@@ -34,3 +34,5 @@ social:
 
 google_analytics: "UA-58263416-1"
 
+disqus:
+    shortname: dudgns0908
