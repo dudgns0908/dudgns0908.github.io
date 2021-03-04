@@ -1,8 +1,8 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+title: Research Blog
+description: Research Blog for Deep Learning
 
-url: http://brianmaierjr.github.com/long-haul
-baseurl: "/long-haul"
+url: http://dudgns0908.github.io/
+baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -11,7 +11,10 @@ permalink: blog/:title/
 
 markdown: kramdown
 highlighter: rouge
-plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+#  - jekyll-archives
+
 paginate: 5
 
 navigation:
@@ -23,13 +26,11 @@ navigation:
     url: /contact
 
 social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
-  linkedin: brianmaierjr
+  github: dudgns0908
+#  twitter:
+#  facebook:
+  email: dudgns09081@gmail.com
+  linkedin: oldrabbit
 
 google_analytics: "UA-58263416-1"
 
-disqus:
-    shortname: brianmaierjr
